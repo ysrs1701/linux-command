@@ -20,6 +20,7 @@ du [选项][文件]
 -B, --block-size=大小                  使用指定字节数的块
 -b, --bytes                            显示目录或文件大小时，以byte为单位。
 -c, --total                            除了显示个别目录或文件的大小外，同时也显示所有目录或文件的总和。
+-d, --max-depth=N                      参数指定查看目录的深度, --max-depth=0与--summarize作用相同。
 -D, --dereference-args                 显示指定符号链接的源文件大小。
 -H, --si                               与-h参数相同，但是K，M，G是以1000为换算单位。
 -h, --human-readable                   以K，M，G为单位，提高信息的可读性。
